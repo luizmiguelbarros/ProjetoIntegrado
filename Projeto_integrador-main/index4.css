@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho {
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #162059;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-family: FreeMono, monospace;
+  list-style: none;
+  text-align: center;
+  
+
+}
+
+#cabecalho img {
+  width: 100%;
+  margin-top: 130px;
+
+}
+  
+#cabecalho nav li {
+  margin-bottom: 50px;
+  margin-top: 44px;
+}
+
+#cabecalho nav li a {
+    
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  
+
+  }
+    
+  body {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 235);
+  }
+
+  h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: FreeMono, monospace;
+    color: #162059;
+  }
+
+
+  .caixa{
+    width: 800px;
+    margin-top: 50px;
+      height: 500px;
+      border: 2px solid rgb(80, 80, 80);
+      padding: 20px;
+      border-radius: 2%;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .caixa h1 {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #162059;
+  }
+
+  .caixa h3 {
+    margin-top: 40px;
+    font-family: FreeMono, monospace;
+    margin-bottom: 10px;
+    color: #162059;
+
+  }
+
+  .input1 {
+    width: 100%;
+  }
+
+  .input2 {
+    width: 13%;
+    margin-top: 10px;
+  }
+
+  .input3 {
+    width: 100px;
+  }
+
+  .container {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .caixas {
+    justify-content: space-between;
+    display: flex;
+    
+  }
+
+  select {
+    width: 150px;
+    margin-top: 10px;
+  
+  }
+
+  p { 
+    color: #162059;
+    font-family: FreeMono, monospace;
+    margin-top: 10px;
+  }
+
+  button {
+    
+    font-size: 20px;
+    border: 1px solid rgb(80, 80, 80);
+    background-color: #162059;
+    color: aliceblue;
+    font-family: FreeMono, monospace;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  button:hover {
+    background-color: aliceblue;
+    color: #162059;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  

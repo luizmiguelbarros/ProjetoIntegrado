@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* cabecalho na esquerda */
+
+#cabecalho {
+  width: 10%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #162059;
+  color: rgb(211, 211, 211);
+  padding: 20px;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+#cabecalho nav ul a{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+
+#cabecalho img {
+  width: 100%;
+  margin-top: 130px;
+}
+
+body {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 235);
+}
+
+/* index.html */
+
+.painel {
+  width: 90%;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border-radius: 0px;
+  margin-top: 2%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+
+#teste {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  left: 390px;
+  top: 170px;
+  background-color: #dddddd;
+  font-size: 25px;
+  margin-top: 2%;
+  border: 2px solid #000000;
+}
+
+#teste2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  left: 750px;
+  top: 170px;
+  background-color: #dddddd;
+  font-size: 25px;
+  margin-top: 2%;
+  border: 2px solid #000000;
+}
+
+#teste3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  left: 1100px;
+  top: 170px;
+  background-color: #dddddd;
+  font-size: 25px;
+  margin-top: 2%;
+  border: 2px solid #000000;
+}
+
+#teste4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  left: 1450px;
+  top: 170px;
+  background-color: #dddddd;
+  font-size: 25px;
+  margin-top: 2%;
+  border: 2px solid #000000;
+}
+
+
+#quadro {
+  position: absolute;
+  width: 680px;
+  height: 136px;
+  left: 260px;
+  top: 406px;
+  border: 1px solid #000000;
+}
+
+.tabela {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1200px;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+
+
+/* index3.html */
+
+#treco2 {
+  position: relative;
+  width: 720px;
+  height: 90px;
+  left: 150px;
+  top: 159px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+}
+
+img{
+  width: 80px;
+  margin-top: 4px;
+}
+
+#treco3 {
+  position: relative;
+  width: 720px;
+  height: 90px;
+  left: 150px;
+  top: 159px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+}
+
+#treco4 {
+  position: relative;
+  width: 720px;
+  height: 90px;
+  left: 150px;
+  top: 159px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+}
+
+#treco5 {
+  position: relative;
+  width: 720px;
+  height: 90px;
+  left: 150px;
+  top: 159px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+}
+
+#treco6 {
+  position: relative;
+  width: 720px;
+  height: 90px;
+  left: 150px;
+  top: 159px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+}
+
+.telas{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 550px;
+  
+}
+
+#texto{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#parte1{
+  position: absolute;
+  display: flex;
+  top:10px;
+  left: 90px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#parte3{
+  position: absolute;
+  display: flex;
+  top: 35px;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+}
+
+#texto p {
+  margin-right:30px;
+}
+
